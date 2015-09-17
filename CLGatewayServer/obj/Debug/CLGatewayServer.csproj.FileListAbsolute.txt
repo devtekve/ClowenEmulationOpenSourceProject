@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\BuildFolder\CLGatewayServer.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\BuildFolder\CLGatewayServer.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\BuildFolder\CLGatewayServer.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLGatewayServer\obj\Debug\CLGatewayServer.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLGatewayServer\obj\Debug\CLGatewayServer.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLGatewayServer\obj\Debug\CLGatewayServer.pdb

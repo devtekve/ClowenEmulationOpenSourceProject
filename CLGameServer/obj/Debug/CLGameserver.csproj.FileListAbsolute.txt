@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\obj\Debug\CLGameServer.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\CLGameServer.exe.config
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\CLGameServer.exe
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\CLGameServer.pdb
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\EntityFramework.dll
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\Framework.dll
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\Framework.pdb
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\EntityFramework.xml
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\obj\Debug\CLGameServer.exe
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\CLGameServer\obj\Debug\CLGameServer.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\BuildFolder\CLGameServer.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\BuildFolder\CLGameServer.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\BuildFolder\CLGameServer.pdb

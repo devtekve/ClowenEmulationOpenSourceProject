@@ -1,0 +1,13 @@
+C:\Users\Clowen\Downloads\root\Build\GatewayServer.exe.config
+C:\Users\Clowen\Downloads\root\trunk\ServerFilesRelease\GatewayServer.exe.config
+C:\Users\Clowen\Downloads\root\trunk\ServerFilesRelease\GatewayServer.exe
+C:\Users\Clowen\Downloads\root\trunk\ServerFilesRelease\GatewayServer.pdb
+C:\Users\Clowen\Downloads\root\trunk\GatewayServer\obj\Debug\GatewayServer.csprojResolveAssemblyReference.cache
+C:\Users\Clowen\Downloads\root\trunk\GatewayServer\obj\Debug\GatewayServer.exe
+C:\Users\Clowen\Downloads\root\trunk\GatewayServer\obj\Debug\GatewayServer.pdb
+D:\SilkroadOnline\MyProject\ServerFilesRelease\GatewayServer.exe.config
+D:\SilkroadOnline\MyProject\GatewayServer\obj\Debug\GatewayServer.exe
+D:\SilkroadOnline\MyProject\GatewayServer\obj\Debug\GatewayServer.pdb
+D:\SilkroadOnline\MyProject\ServerFilesRelease\GatewayServer.exe
+D:\SilkroadOnline\MyProject\ServerFilesRelease\GatewayServer.pdb
+D:\SilkroadOnline\MyProject\GatewayServer\obj\Debug\GatewayServer.csprojResolveAssemblyReference.cache

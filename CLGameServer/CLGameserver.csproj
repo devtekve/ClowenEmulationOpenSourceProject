@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD1E777F-20F8-4C2B-9BD7-CCF6E67BD381}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLGameServer</RootNamespace>
+    <AssemblyName>CLGameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\BuildFolder\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Brain\ServerMgr.cs" />
+    <Compile Include="ClientData\RefObjects.cs" />
+    <Compile Include="Client\AlchemyPackets.cs" />
+    <Compile Include="Client\AttackpetPackets.cs" />
+    <Compile Include="Client\CharacterPackets.cs" />
+    <Compile Include="Client\ExchangePackets.cs" />
+    <Compile Include="Client\FriendsPackets.cs" />
+    <Compile Include="Client\GrabpetPackets.cs" />
+    <Compile Include="Client\ItemActionPackets.cs" />
+    <Compile Include="Client\JobSystemPackets.cs" />
+    <Compile Include="Client\LeaveGamePackets.cs" />
+    <Compile Include="Client\LoginPackets.cs" />
+    <Compile Include="Client\MessagePackets.cs" />
+    <Compile Include="Client\MovementPackets.cs" />
+    <Compile Include="Client\NpcPackets.cs" />
+    <Compile Include="Client\OperationCodes.cs" />
+    <Compile Include="Client\OperationCodesParse.cs" />
+    <Compile Include="Client\PlayerActionPackets.cs" />
+    <Compile Include="Client\PrivateMessagePackets.cs" />
+    <Compile Include="Client\RankListeningPackets.cs" />
+    <Compile Include="Client\SkillSystemPackets.cs" />
+    <Compile Include="Client\SpawnPackets.cs" />
+    <Compile Include="Client\StallSystemPackets.cs" />
+    <Compile Include="Client\StoragePackets.cs" />
+    <Compile Include="Client\TeleportPackets.cs" />
+    <Compile Include="Client\TransportPackets.cs" />
+    <Compile Include="Client\UIITMessages.cs" />
+    <Compile Include="Client\UniquePackets.cs" />
+    <Compile Include="Helpers\Functions.cs" />
+    <Compile Include="Helpers\GetInformation.cs" />
+    <Compile Include="Helpers\Manager.cs" />
+    <Compile Include="Helpers\SendToClient.cs" />
+    <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="NoCategories\Character\CharacterCreation.cs" />
+    <Compile Include="NoCategories\Character\CharacterListening.cs" />
+    <Compile Include="NoCategories\Character\CharacterLoading.cs" />
+    <Compile Include="NoCategories\Character\CharacterLogin.cs" />
+    <Compile Include="NoCategories\Character\CharacterSaving.cs" />
+    <Compile Include="NoCategories\Character\CharacterUpdate.cs" />
+    <Compile Include="NoCategories\Formule.cs" />
+    <Compile Include="NoCategories\Game.Base.Skill.cs" />
+    <Compile Include="NoCategories\Global\Timer.cs" />
+    <Compile Include="NoCategories\Items\ItemActions.cs" />
+    <Compile Include="NoCategories\Items\ItemAdding.cs" />
+    <Compile Include="NoCategories\Items\ItemChecks.cs" />
+    <Compile Include="NoCategories\Items\ItemMoving.cs" />
+    <Compile Include="NoCategories\Items\ItemSwitch.cs" />
+    <Compile Include="NoCategories\Items\ItemUsage.cs" />
+    <Compile Include="NoCategories\LoadSystem\CollisionDetection.cs" />
+    <Compile Include="NoCategories\LoadSystem\LoadTxt\Enums.cs" />
+    <Compile Include="NoCategories\LoadSystem\LoadTxt\RefitemObj.cs" />
+    <Compile Include="NoCategories\LoadSystem\OLD_SYSTEM_FileLoad.cs" />
+    <Compile Include="NoCategories\Private\Blues.cs" />
+    <Compile Include="NoCategories\Private\Mastery.cs" />
+    <Compile Include="NoCategories\Private\Npcs.cs" />
+    <Compile Include="NoCategories\Public\Alchemy.cs" />
+    <Compile Include="NoCategories\Public\AttackPet.cs" />
+    <Compile Include="NoCategories\Public\Balloons.cs" />
+    <Compile Include="NoCategories\Public\Berserk.cs" />
+    <Compile Include="NoCategories\Public\ChangeSkin.cs" />
+    <Compile Include="NoCategories\Public\Chat.cs" />
+    <Compile Include="NoCategories\Public\Commands.cs" />
+    <Compile Include="NoCategories\Public\Effect.cs" />
+    <Compile Include="NoCategories\Public\EventSystem.cs" />
+    <Compile Include="NoCategories\Public\Exchange.cs" />
+    <Compile Include="NoCategories\Public\ForgottenWorld.cs" />
+    <Compile Include="NoCategories\Public\Friends.cs" />
+    <Compile Include="NoCategories\Public\Grabpet.cs" />
+    <Compile Include="NoCategories\Public\HpMpRegen.cs" />
+    <Compile Include="NoCategories\Public\Icons.cs" />
+    <Compile Include="NoCategories\Public\Jobs.cs" />
+    <Compile Include="NoCategories\Public\MonsterMasks.cs" />
+    <Compile Include="NoCategories\Public\MonsterScrolls.cs" />
+    <Compile Include="NoCategories\Public\Movement.cs" />
+    <Compile Include="NoCategories\Public\ObjectClose.cs" />
+    <Compile Include="NoCategories\Public\Picking.cs" />
+    <Compile Include="NoCategories\Public\PkSystem.cs" />
+    <Compile Include="NoCategories\Public\Playerinventory.cs" />
+    <Compile Include="NoCategories\Public\PlayerState.cs" />
+    <Compile Include="NoCategories\Public\Potions.cs" />
+    <Compile Include="NoCategories\Public\Premium.cs" />
+    <Compile Include="NoCategories\Public\PrivateMessages.cs" />
+    <Compile Include="NoCategories\Public\Pvpsystem.cs" />
+    <Compile Include="NoCategories\Public\Ranks.cs" />
+    <Compile Include="NoCategories\Public\Skills.cs" />
+    <Compile Include="NoCategories\Public\Spawn.cs" />
+    <Compile Include="NoCategories\Public\Stall.cs" />
+    <Compile Include="NoCategories\Public\Storage.cs" />
+    <Compile Include="NoCategories\Public\Teleporting.cs" />
+    <Compile Include="NoCategories\Public\Transport.cs" />
+    <Compile Include="NoCategories\Public\Union.cs" />
+    <Compile Include="NoCategories\Public\WebMall.cs" />
+    <Compile Include="NoCategories\Systems.cs" />
+    <Compile Include="Player\GuildMgr\Create.cs" />
+    <Compile Include="Player\GuildMgr\Data.cs" />
+    <Compile Include="Player\GuildMgr\Delete.cs" />
+    <Compile Include="Player\GuildMgr\Packets\Packets.cs" />
+    <Compile Include="Player\GuildMgr\Promotion.cs" />
+    <Compile Include="Player\GuildMgr\Storage.cs" />
+    <Compile Include="Player\GuildMgr\Transfer.cs" />
+    <Compile Include="Player\GuildMgr\Icon.cs" />
+    <Compile Include="Player\GuildMgr\Invite.cs" />
+    <Compile Include="Player\GuildMgr\Messages.cs" />
+    <Compile Include="Player\GuildMgr\Permissions.cs" />
+    <Compile Include="Player\GuildMgr\GrandName.cs" />
+    <Compile Include="Player\GuildMgr\Points.cs" />
+    <Compile Include="Player\GuildMgr\War.cs" />
+    <Compile Include="Player\Login.cs" />
+    <Compile Include="Player\PartyMgr\Rename.cs" />
+    <Compile Include="Player\PartyMgr\MatcingList.cs" />
+    <Compile Include="Player\PartyMgr\Join.cs" />
+    <Compile Include="Player\PartyMgr\Disconnect.cs" />
+    <Compile Include="Player\PartyMgr\Ban.cs" />
+    <Compile Include="Player\PartyMgr\Leave.cs" />
+    <Compile Include="Player\PartyMgr\Delete.cs" />
+    <Compile Include="Player\PartyMgr\Definitions.cs" />
+    <Compile Include="Player\PartyMgr\RequestInvite.cs" />
+    <Compile Include="Player\PartyMgr\Create.cs" />
+    <Compile Include="Player\PartyMgr\AddMember.cs" />
+    <Compile Include="Player\PartyMgr\Packets\Create.cs" />
+    <Compile Include="Player\PartyMgr\Packets\JoinFormedRequests.cs" />
+    <Compile Include="Player\PartyMgr\Packets\Data.cs" />
+    <Compile Include="Player\PartyMgr\RequestUnknow.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorldMgr\Items\Functions.cs" />
+    <Compile Include="WorldMgr\Items\Main.cs" />
+    <Compile Include="WorldMgr\Items\Timer.cs" />
+    <Compile Include="WorldMgr\Monsters\Attack.cs" />
+    <Compile Include="WorldMgr\Monsters\Drop.cs" />
+    <Compile Include="WorldMgr\Monsters\Experience.cs" />
+    <Compile Include="WorldMgr\Monsters\Functions.cs" />
+    <Compile Include="WorldMgr\Monsters\Main.cs" />
+    <Compile Include="WorldMgr\Monsters\Timer.cs" />
+    <Compile Include="WorldMgr\Order.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLFramework\CLFramework.csproj">
+      <Project>{7989dcfb-9a7e-4ea9-bb3c-2e48689bf0b0}</Project>
+      <Name>CLFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

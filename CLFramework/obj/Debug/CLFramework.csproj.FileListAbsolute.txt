@@ -1,0 +1,10 @@
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\Framework\bin\Debug\Framework.dll
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\Framework\bin\Debug\Framework.pdb
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\Framework\obj\Debug\Framework.dll
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\Framework\obj\Debug\Framework.pdb
+C:\Users\PC\Documents\visual studio 2015\Projects\ClowenEmulation\Framework\obj\Debug\CLFramework.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLFramework\bin\Debug\Framework.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLFramework\bin\Debug\Framework.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLFramework\obj\Debug\CLFramework.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLFramework\obj\Debug\Framework.dll
+C:\Users\PC\Documents\Visual Studio 2015\Projects\ClowenEmulation\CLFramework\obj\Debug\Framework.pdb
