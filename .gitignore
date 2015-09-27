@@ -1,0 +1,16 @@
+.vs/ClowenEmulation/v14/.suo
+BuildFolder/*.exe
+BuildFolder/*.exe.config
+BuildFolder/*.config
+BuildFolder/*.pdb
+BuildFolder/*.dll
+BuildFolder/*.xml
+CLFramework/bin/*
+CLFramework/obj/Debug/*
+CLFramework/obj/Release/*
+CLGameServer/bin/*
+CLGameServer/obj/Debug/*
+CLGameServer/obj/Release/*
+CLGatewayServer/bin/*
+CLGatewayServer/obj/Debug/*
+CLGatewayServer/obj/Release/*
